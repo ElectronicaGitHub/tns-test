@@ -1,14 +1,14 @@
 import { Component, OnInit } from "@angular/core";
 
-import { Item } from "./item";
-import { ItemService } from "./item.service";
+import { Item } from "../../models/item";
+import { ItemService } from "../../services/item.service";
 
 @Component({
     selector: "ns-items",
     moduleId: module.id,
-    templateUrl: "./items.component.html",
+    templateUrl: "./items-list.component.html",
 })
-export class ItemsComponent implements OnInit {
+export class ItemsListComponent implements OnInit {
     items: Item[];
 
     constructor(private itemService: ItemService) { }

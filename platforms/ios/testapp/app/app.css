@@ -14,7 +14,7 @@ refer to http://docs.nativescript.org/ui/theme.
 Label.header {
 	color: red;
 	background-color: #eee;
-	padding: 10;
+	padding: 15 0 10;
 	text-align: center;
 }
 .mini-header {

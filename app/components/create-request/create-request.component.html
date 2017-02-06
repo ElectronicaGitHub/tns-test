@@ -1,0 +1,7 @@
+<StackLayout orientation="vertical">
+	<Label text="Создание запроса"></Label>
+
+	<TextField [(ngModel)]="request.description" autocorrect="false" autocapitalizationType="none" keyboardType="text" hint="description"></TextField>
+
+	<Button text="Создать" (tap)="submit()"></Button>
+</StackLayout>
